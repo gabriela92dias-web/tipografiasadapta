@@ -1,0 +1,311 @@
+/* ====================================
+   ADAPTA - Sistema Tipográfico
+   Biblioteca de Fontes v1.0.0
+   
+   9 fontes: 5 Core + 4 Expressivas
+   Data: 2026-03-15
+   ==================================== */
+
+/* ========== CORE FONTS ========== */
+
+/* 1. MuseoModerno - Brand Identity
+   Uso: APENAS para escrever "ADAPTA" ou palavras institucionais
+   Regra crítica: NUNCA usar para títulos genéricos ou textos corridos
+   Pesos: 100-900 (Variable) */
+@font-face {
+  font-family: 'MuseoModerno';
+  src: url('./core/museomoderno/MuseoModerno-VariableFont.woff2') format('woff2-variations'),
+       url('./core/museomoderno/MuseoModerno-VariableFont.woff') format('woff-variations'),
+       url('./core/museomoderno/MuseoModerno-VariableFont.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 2. Crimson Pro - Editorial Serif
+   Uso: Revista VerdeVox, artigos longos, conteúdo premium
+   Contexto: Leitor atento, textos que exigem concentração
+   Pesos: 200-900 (Variable) */
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('./core/crimson-pro/CrimsonPro-VariableFont.woff2') format('woff2-variations'),
+       url('./core/crimson-pro/CrimsonPro-VariableFont.woff') format('woff-variations'),
+       url('./core/crimson-pro/CrimsonPro-VariableFont.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 3. DM Sans - UI/Interface
+   Uso: Site, app, menus, botões, formulários, navegação
+   Contexto: Usuário digital, interface do dia a dia
+   Pesos: 100-1000 (Variable) */
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./core/dm-sans/DMSans-VariableFont.woff2') format('woff2-variations'),
+       url('./core/dm-sans/DMSans-VariableFont.woff') format('woff-variations'),
+       url('./core/dm-sans/DMSans-VariableFont.ttf') format('truetype-variations');
+  font-weight: 100 1000;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 4. DM Mono - Técnico/Dados
+   Uso: Dosagens, código, dados científicos, tabelas, bulas
+   Contexto: Profissional técnico, informação precisa
+   Pesos: 300 (Light), 400 (Regular), 500 (Medium) */
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./core/dm-mono/DMMono-Light.woff2') format('woff2'),
+       url('./core/dm-mono/DMMono-Light.woff') format('woff'),
+       url('./core/dm-mono/DMMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./core/dm-mono/DMMono-Regular.woff2') format('woff2'),
+       url('./core/dm-mono/DMMono-Regular.woff') format('woff'),
+       url('./core/dm-mono/DMMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'DM Mono';
+  src: url('./core/dm-mono/DMMono-Medium.woff2') format('woff2'),
+       url('./core/dm-mono/DMMono-Medium.woff') format('woff'),
+       url('./core/dm-mono/DMMono-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 5. Nunito - Friendly/Warmth
+   Uso: FAQ, acolhimento, onboarding, tutoriais
+   Contexto: Paciente/novato, mensagens empáticas
+   Pesos: 200-1000 (Variable) */
+@font-face {
+  font-family: 'Nunito';
+  src: url('./core/nunito/Nunito-VariableFont.woff2') format('woff2-variations'),
+       url('./core/nunito/Nunito-VariableFont.woff') format('woff-variations'),
+       url('./core/nunito/Nunito-VariableFont.ttf') format('truetype-variations');
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ========== EXPRESSIVAS FONTS ========== */
+
+/* 6. Urbanist - Display Versátil
+   Uso: Outdoor, eventos, capas de revista, hero sections, campanhas
+   Contexto: Público amplo, comunicação de impacto
+   Pesos: 100-900 (Variable) */
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./expressivas/urbanist/Urbanist-VariableFont.woff2') format('woff2-variations'),
+       url('./expressivas/urbanist/Urbanist-VariableFont.woff') format('woff-variations'),
+       url('./expressivas/urbanist/Urbanist-VariableFont.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 7. Allura - Manuscrita Chique
+   Uso: Assinaturas médicas, mensagens de fundadores, convites VIP
+   Contexto: Premium, formal elegante, notas especiais
+   Pesos: 400 (Regular) */
+@font-face {
+  font-family: 'Allura';
+  src: url('./expressivas/allura/Allura-Regular.woff2') format('woff2'),
+       url('./expressivas/allura/Allura-Regular.woff') format('woff'),
+       url('./expressivas/allura/Allura-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 8. Ofissina - Casual Regional (Brasil)
+   Uso: Tirinhas adultas/regionais, "tio careta", brasilidade
+   Contexto: Humor adulto com contexto cultural brasileiro
+   Diferença-chave: Regional (vs Bolupisang que é universal)
+   Pesos: 400 (Regular) */
+@font-face {
+  font-family: 'Ofissina';
+  src: url('./expressivas/ofissina/Ofissina-Regular.woff2') format('woff2'),
+       url('./expressivas/ofissina/Ofissina-Regular.woff') format('woff'),
+       url('./expressivas/ofissina/Ofissina-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 9. Bolupisang - Casual Universal
+   Uso: CTAs simpáticos, tirinhas dia a dia, playful universal
+   Contexto: Leveza e descontração sem regionalismo
+   Diferença-chave: Universal (vs Ofissina que é regional)
+   Pesos: 400 (Regular) */
+@font-face {
+  font-family: 'Bolupisang';
+  src: url('./expressivas/bolupisang/Bolupisang-Regular.woff2') format('woff2'),
+       url('./expressivas/bolupisang/Bolupisang-Regular.woff') format('woff'),
+       url('./expressivas/bolupisang/Bolupisang-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ========== CSS CUSTOM PROPERTIES ========== */
+
+:root {
+  /* ===== CORE FONTS ===== */
+  --font-brand: 'MuseoModerno', sans-serif;
+  --font-editorial: 'Crimson Pro', serif;
+  --font-ui: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --font-friendly: 'Nunito', sans-serif;
+  
+  /* ===== EXPRESSIVAS FONTS ===== */
+  --font-display: 'Urbanist', sans-serif;
+  --font-signature: 'Allura', cursive;
+  --font-regional: 'Ofissina', cursive;
+  --font-playful: 'Bolupisang', cursive;
+
+  /* ===== FALLBACK STACKS ===== */
+  --font-stack-brand: 'MuseoModerno', 'Arial Black', sans-serif;
+  --font-stack-editorial: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-stack-ui: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-stack-mono: 'DM Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  --font-stack-friendly: 'Nunito', 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --font-stack-display: 'Urbanist', 'Helvetica Neue', Arial, sans-serif;
+  --font-stack-signature: 'Allura', 'Brush Script MT', cursive;
+  --font-stack-regional: 'Ofissina', 'Comic Sans MS', cursive;
+  --font-stack-playful: 'Bolupisang', 'Comic Neue', 'Comic Sans MS', cursive;
+}
+
+/* ========== UTILITY CLASSES ========== */
+
+/* Core fonts */
+.font-brand { font-family: var(--font-stack-brand); }
+.font-editorial { font-family: var(--font-stack-editorial); }
+.font-ui { font-family: var(--font-stack-ui); }
+.font-mono { font-family: var(--font-stack-mono); }
+.font-friendly { font-family: var(--font-stack-friendly); }
+
+/* Expressivas fonts */
+.font-display { font-family: var(--font-stack-display); }
+.font-signature { font-family: var(--font-stack-signature); }
+.font-regional { font-family: var(--font-stack-regional); }
+.font-playful { font-family: var(--font-stack-playful); }
+
+/* ========== EXEMPLOS DE USO ========== */
+
+/*
+// LOGO ADAPTA (MuseoModerno)
+.logo {
+  font-family: var(--font-brand);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+// ARTIGO DE REVISTA (Crimson Pro)
+.article {
+  font-family: var(--font-editorial);
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+// INTERFACE DO APP (DM Sans)
+.ui-button, .menu-item, .form-label {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+// DOSAGEM TÉCNICA (DM Mono)
+.dosage-info, .technical-data {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+// FAQ ACOLHEDOR (Nunito)
+.faq-answer, .welcome-message {
+  font-family: var(--font-friendly);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+// OUTDOOR/EVENTO (Urbanist)
+.hero-title, .event-banner {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(3rem, 10vw, 8rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+// ASSINATURA MÉDICA (Allura)
+.doctor-signature, .founder-note {
+  font-family: var(--font-signature);
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+// TIRINHA REGIONAL (Ofissina)
+.comic-regional, .brazilian-context {
+  font-family: var(--font-regional);
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+// CTA SIMPÁTICO (Bolupisang)
+.playful-cta, .friendly-message {
+  font-family: var(--font-playful);
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+*/
+
+/* ========== PERFORMANCE HINTS ========== */
+
+/*
+DICAS DE PERFORMANCE:
+
+1. Carregue apenas as fontes necessárias por página
+2. Use font-display: swap para evitar FOIT (Flash of Invisible Text)
+3. Prefira WOFF2 (melhor compressão)
+4. Use preconnect para Google Fonts:
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+5. Para fontes Variable, especifique apenas os pesos que usa:
+   font-weight: 400 700; (ao invés de 100 900)
+*/
+
+/* ========== ACESSIBILIDADE ========== */
+
+/*
+REQUISITOS DE ACESSIBILIDADE:
+
+1. Tamanho mínimo de texto: 16px para textos corridos
+2. Contraste mínimo: WCAG AA (4.5:1 para texto normal)
+3. Line-height: mínimo 1.5 para textos corridos
+4. Não use fontes display (Allura, Ofissina, Bolupisang) para textos longos
+5. Mantenha letter-spacing positivo em pesos bold (evita colisão de glifos)
+*/
