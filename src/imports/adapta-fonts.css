@@ -1,0 +1,225 @@
+/* ══════════════════════════════════════════════════════════════
+   ADAPTA — SISTEMA TIPOGRÁFICO 2024
+   ══════════════════════════════════════════════════════════════
+   12 FONTES ESTRATÉGICAS: Cannabis Medicinal
+   
+   🔹 CORE (5)         — Fundação do sistema
+   🔸 EXPRESSIVAS (5)  — Voz e personalidade
+   🔧 UTILITÁRIAS (2)  — Funcionalidade técnica
+   
+   ══════════════════════════════════════════════════════════════ */
+
+/* ══════════════════════════════════════════════════════════════
+   @IMPORT — TODOS OS IMPORTS DEVEM VIR PRIMEIRO!
+   ══════════════════════════════════════════════════════════════ */
+
+/* 🔹 CORE — Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+/* 🆕 CRIMSON PRO - Serif elegante old-style (Garamond-like) */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* 🆕 INTER - A UI workhorse perfeita! */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* 🆕 URBANIST - A geométrica cosmopolita com 18 PESOS! */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 🆕 LATO - A humanista warm perfeita! */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@100;300;400;700;900&display=swap');
+
+/* 🆕 SUPERFAMÍLIA IBM PLEX - A solução consolidada! */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@100;200;300;400;500;600;700;100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@100;200;300;400;500;600;700;100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@100;200;300;400;500;600;700;100..700&display=swap');
+
+/* 🆕 LORA - Serif warm para complementar Plex */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@400;500;600;700&display=swap');
+
+/* 🆕 WORK SANS — Teste de substituição da Glacial */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@100;200;300;400;500;600;700;800;900;100..900&display=swap');
+
+/* 🆕 IBM PLEX SANS — Alternativa de teste */
+/* (já importada acima com a superfamília) */
+
+/* 🆕 ALTERNATIVAS MAIS SUAVES */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@200;300;400;500;600;700;800&display=swap');
+
+/* 🆕 EB GARAMOND — Serif workhorse com ligatures */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@400;500;600;700;800&display=swap');
+
+/* 🆕 NUNITO — Friendly rounded sans */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* 🔧 UTILITÁRIAS — Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+/* ══════════════════════════════════════════════════════════════
+   🔹 CORE FONTS — Local @font-face
+   ══════════════════════════════════════════════════════════════ */
+
+/* SUSE Mono — Dados técnicos, precisão (sistema local) */
+@font-face {
+  font-family: 'SUSE Mono';
+  src: local('SUSE Mono'),
+       local('SUSEMono'),
+       local('SUSE Mono Regular'),
+       local('SUSEMono-Regular'),
+       local('SUSEMonoRegular'),
+       local('susemono'),
+       local('SUSE Mono Light'),
+       local('SUSEMono-Light');
+  font-weight: 300 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SUSE Mono';
+  src: local('SUSE Mono Bold'), 
+       local('SUSEMono-Bold'),
+       local('SUSE Mono SemiBold'),
+       local('SUSEMono-SemiBold');
+  font-weight: 600 800;
+  font-display: swap;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   🔸 EXPRESSIVAS — Local @font-face
+   ══════════════════════════════════════════════════════════════ */
+
+/* FOMO — Energética, ativismo, impacto */
+/* Fonte stencil/all-caps industrial */
+@font-face { 
+  font-family: 'FOMO'; 
+  src: local('FOMO Regular'),
+       local('FOMO-Regular'),
+       local('FOMORegular'),
+       local('FOMO'),
+       local('Fomo Regular'),
+       local('Fomo');
+  font-weight: 400; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+@font-face { 
+  font-family: 'FOMO'; 
+  src: local('FOMO Bold'),
+       local('FOMO-Bold'),
+       local('FOMOBold'),
+       local('Fomo Bold');
+  font-weight: 700; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+@font-face { 
+  font-family: 'FOMO'; 
+  src: local('FOMO ExtraBold'),
+       local('FOMO-ExtraBold'),
+       local('FOMO Black'),
+       local('FOMO-Black');
+  font-weight: 800; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+/* Cause — Empática, acolhedora, warm */
+@font-face { 
+  font-family: 'Cause'; 
+  src: local('Cause'),
+       local('Cause Regular'),
+       local('Cause-Regular');
+  font-weight: 400; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+/* Ofissina — Regional, brazilidade, autêntico */
+@font-face { 
+  font-family: 'Ofissina'; 
+  src: local('Ofissina'),
+       local('Ofissina Regular'),
+       local('Ofissina-Regular');
+  font-weight: 400; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+/* Mayonice — Signature, pessoal, único */
+@font-face { 
+  font-family: 'Mayonice'; 
+  src: local('Mayonice'),
+       local('Mayonice Regular'),
+       local('Mayonice-Regular');
+  font-weight: 400; 
+  font-style: normal; 
+  font-display: swap; 
+}
+
+/* Bolupisang — Craft, artesanal, playful */
+/* by Locomotype — 6 alternativas dinâmicas por letra */
+/* https://locomotype.com/bolupisang/ */
+@font-face {
+  font-family: 'Bolupisang';
+  src: local('Bolupisang Regular'),
+       local('Bolupisang-Regular'),
+       local('BolupisangRegular'),
+       local('Bolupisang'),
+       local('bolupisang');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   CSS VARIABLES — Design Tokens
+   ══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* 🔹 CORE */
+  --font-display: MuseoModerno, sans-serif;
+  --font-heading: Montserrat, sans-serif;
+  --font-body: 'Glacial Indifference', sans-serif;
+  --font-editorial: 'Cormorant Garamond', serif;
+  
+  /* 🔸 EXPRESSIVAS */
+  --font-energetic: 'FOMO', sans-serif;
+  --font-warm: 'Cause', cursive;
+  --font-regional: 'Ofissina', sans-serif;
+  --font-signature: 'Mayonice', cursive;
+  --font-craft: 'Bolupisang', cursive;
+  
+  /* 🔧 UTILITÁRIAS */
+  --font-mono: 'SUSE Mono', monospace;
+  --font-ui: 'Hind Siliguri', sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   UTILITY CLASSES
+   ══════════════════════════════════════════════════════════════ */
+
+/* CORE */
+.font-display { font-family: var(--font-display); }
+.font-heading { font-family: var(--font-heading); }
+.font-body { font-family: var(--font-body); }
+.font-editorial { font-family: var(--font-editorial); }
+
+/* EXPRESSIVAS */
+.font-energetic { font-family: var(--font-energetic); }
+.font-warm { font-family: var(--font-warm); }
+.font-regional { font-family: var(--font-regional); }
+.font-signature { font-family: var(--font-signature); }
+.font-craft { font-family: var(--font-craft); }
+
+/* UTILITÁRIAS */
+.font-mono { font-family: var(--font-mono); }
+.font-ui { font-family: var(--font-ui); }
+.font-code { font-family: var(--font-code); }
